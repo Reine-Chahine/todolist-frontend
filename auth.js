@@ -19,3 +19,4 @@ function showForm(form) {
     function handleLogin(event) {
         event.preventDefault();
         localStorage.setItem("isLoggedIn", "true");
+        window.location.href = "index.html";
