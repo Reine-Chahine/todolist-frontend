@@ -66,6 +66,6 @@ function addTask() {
   
   function logout() {
     localStorage.removeItem("isLoggedIn");
-    window.location.href = "auth.html";
+    window.location.href = "auth .html";
   }
   
