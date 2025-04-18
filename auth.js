@@ -9,3 +9,10 @@ function showForm(form) {
       signupForm.classList.remove("active");
       loginToggle.classList.add("active");
       signupToggle.classList.remove("active");
+    } else {
+        signupForm.classList.add("active");
+        loginForm.classList.remove("active");
+        signupToggle.classList.add("active");
+        loginToggle.classList.remove("active");
+      }
+    }
