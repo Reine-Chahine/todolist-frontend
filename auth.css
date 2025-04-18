@@ -36,3 +36,24 @@ body {
     max-width: 400px;
     transition: all 0.3s ease;
   }
+  .toggle-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+  .toggle-buttons button {
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .toggle-buttons button.active {
+    border-color: orangered;
+    color: orangered;
+  }
