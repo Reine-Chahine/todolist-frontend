@@ -16,3 +16,5 @@ function showForm(form) {
         loginToggle.classList.remove("active");
       }
     }
+    function handleLogin(event) {
+        event.preventDefault();
