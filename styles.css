@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: #f1f5f9;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(images/todo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
