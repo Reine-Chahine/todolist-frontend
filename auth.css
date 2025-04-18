@@ -11,3 +11,28 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .head{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+    font-family: cursive;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #f0f0f0;
+
+  }
+  .auth-wrapper {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    transition: all 0.3s ease;
+  }
