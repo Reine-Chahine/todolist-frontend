@@ -46,3 +46,37 @@
     color: black;
     font-size: 1.5rem;
   }
+  .add-task {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .add-task input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .add-task select {
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-task button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .add-task button:hover {
+    background: orangered;
+  }
+  
