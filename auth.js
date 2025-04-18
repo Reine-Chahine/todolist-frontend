@@ -20,3 +20,11 @@ function showForm(form) {
         event.preventDefault();
         localStorage.setItem("isLoggedIn", "true");
         window.location.href = "index.html";
+    }
+    function handleSignUp(event) {
+        event.preventDefault();
+      te
+        localStorage.setItem("isLoggedIn", "true");
+      
+        window.location.href = "index.html";
+      }
