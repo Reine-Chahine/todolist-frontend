@@ -37,3 +37,35 @@ if (localStorage.getItem("isLoggedIn") !== "true") {
     list.appendChild(li);
   });
 }
+function addTask() {
+    const input = document.getElementById("taskInput");
+    const statusSelect = document.getElementById("statusSelect");
+    const value = input.value.trim();
+    const status = statusSelect.value;
+  
+    if (value !== "") {
+      tasks.push({ text: value, completed: status === "completed" });
+      input.value = "";
+      renderTasks();
+    }
+  }
+  
+  function toggleComplete(index) {
+    tasks[index].completed = !tasks[index].completed;
+    renderTasks();
+  }
+  
+  function removeTask(index) {
+    tasks.splice(index, 1);
+    renderTasks();
+  }
+  
+  function filterTasks() {
+    renderTasks();
+  }
+  
+  function logout() {
+    localStorage.removeItem("isLoggedIn");
+    window.location.href = "auth.html";
+  }
+  
